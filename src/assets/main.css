@@ -1,35 +1,59 @@
-@import './base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+.plano_de_fundo {
+  background-image: linear-gradient(to top right, #222222, #353535);
+  color: #FEFEFE;
+  --bs-border-color: #CA6510;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.btn-orange {
+  background-color: rgb(46, 46, 46);
+  border-color: #CA6510;
+  color: #FEFEFE;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.btn-orange:hover {
+  background-color: #4d4d4d;
+  border-color: #FE8C00;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.tag_green {
+  background-color: #299F69;
+  color: #FEFEFE;
+  padding-inline: 5px;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.tag_purple {
+  background-color: #6f42c1;
+  color: #FEFEFE;
+  padding-inline: 5px;
+}
+
+.tag_blue {
+  background-color: #4479A1;
+  color: #FEFEFE;
+  padding-inline: 5px;
+}
+
+.tag_yellow {
+  background-color: #F7DF1E;
+  color: #222222;
+  padding-inline: 5px;
+}
+
+.navbar_custom {
+  background-image: linear-gradient(to top right, #222222, #2E2E30, #353535);
+}
+
+.navbar, .navbar-brand, .nav-link {
+  --bs-border-color: #FE8C00;
+  --bs-navbar-brand-color: #FEFEFE;
+  --bs-navbar-brand-hover-color: #CA6510;
+  --bs-navbar-active-color: #FE8C00;
+  --bs-nav-link-color: #FEFEFE;
+  --bs-nav-link-hover-color: #CA6510;
+}
+
+.laranja_degrade b {
+  background-image: linear-gradient(to top, #FF7300, #FE8C00);
+  background-clip: text;
+  color: transparent;
 }
