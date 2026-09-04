@@ -57,3 +57,7 @@
   background-clip: text;
   color: transparent;
 }
+
+html {
+    scroll-padding-top: 80px;
+}
