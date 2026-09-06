@@ -1,11 +1,11 @@
 <script></script>
 
 <template>
-  <main class="pb-4" id="projetos">
+  <main class="pb-4 border-bottom" id="projetos">
     <h1 class="laranja_degrade mt-3 mb-5"><b>Conheça alguns dos meus projetos</b></h1>
     
     <div class="row mb-5">
-      <div class="col-5">
+      <div class="order-2 order-xxl-1 col-xxl-5 gy-4">
         <p class="text-break laranja_degrade">
           Este projeto foi desenvolvido como <b>freelancer</b> para uma barbearia local, com o objetivo de automatizar e simplificar o processo de reservas.
           O sistema permite que os clientes escolham o serviço, barbeiro e horário desejados, tornando o <b>agendamento mais rápido e organizado.</b><br><br>
@@ -24,7 +24,7 @@
           <span class="tag_yellow rounded-4">JavaScript</span>
         </div>
       </div>
-      <div id="carouselLosHermanos" class="carousel slide col-7">
+      <div id="carouselLosHermanos" class="carousel slide order-1 col-xxl-7">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselLosHermanos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselLosHermanos" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-5">
+      <div class="order-2 order-xxl-1 col-xxl-5 gy-4">
         <p class="text-break laranja_degrade">
           <b>Site institucional</b> desenvolvido para a divulgação de uma barbearia, apresentando seus serviços, profissionais, informações sobre o
           estabelecimento, canais de contato e redes sociais.<br><br>
@@ -70,7 +70,7 @@
           <span class="tag_purple rounded-4">Bootstrap</span>
         </div>
       </div>
-      <div id="carouselBarbershop" class="carousel slide col-7">
+      <div id="carouselBarbershop" class="carousel slide order-1 col-xxl-7">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselBarbershop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselBarbershop" data-bs-slide-to="1" aria-label="Slide 2"></button>
