@@ -1,5 +1,6 @@
 <script setup>
 import AboutMe from '@/components/AboutMe.vue';
+import Contacts from '@/components/Contacts.vue';
 import Projects from '@/components/Projects.vue';
 import TheWelcome from '@/components/TheWelcome.vue';
 
@@ -16,7 +17,7 @@ import TheWelcome from '@/components/TheWelcome.vue';
         <div class="navbar-nav d-flex ms-auto gap-2">
           <a class="nav-link" href="#projetos">Projetos</a>
           <a class="nav-link" href="#sobre">Sobre</a>
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link" href="#contato">Contato</a>
         </div>
       </div>
     </div>
@@ -25,5 +26,6 @@ import TheWelcome from '@/components/TheWelcome.vue';
     <TheWelcome />
     <Projects />
     <AboutMe />
+    <Contacts />
   </main>
 </template>

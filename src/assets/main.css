@@ -58,6 +58,10 @@
   color: transparent;
 }
 
+.font_laranja {
+  color: #FE8C00;
+}
+
 html {
     scroll-padding-top: 80px;
 }

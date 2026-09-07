@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <main class="pb-4" id="sobre">
+  <main class="pb-4 border-bottom" id="sobre">
     <h1 class="laranja_degrade mt-3 mb-4"><b>Sobre mim...</b></h1>
     <div>
       <p class="text-break laranja_degrade">
