@@ -13,7 +13,7 @@
           O projeto contou com <b>integração ao Google Calendar API</b>, adicionando automaticamente as reservas à agenda do barbeiro responsável.
           Também trabalhei com validações de datas, horários e disponibilidade, <b>evitando conflitos entre agendamentos.</b>
         </p>
-        <a href="https://loshermanosmarilia.com.br" target="_blank"><button class="btn-orange rounded-2">Acessar Projeto</button></a>
+        <a href="https://reservas.loshermanosmarilia.com.br" target="_blank"><button class="btn-orange rounded-2">Acessar Projeto</button></a>
         <div class="mt-3 d-flex flex-wrap gap-2">
           <span class="tag_green rounded-4">Vue.js</span>
           <span class="tag_purple rounded-4">C#</span>
@@ -64,7 +64,7 @@
           O projeto teve como foco uma <b>interface moderna, organizada e responsiva</b>, facilitando o acesso às informações e proporcionando uma
           experiência <b>simples e agradável</b> aos usuários.
         </p>
-        <a href="https://danielvieiracosta.github.io/Los_Hermanos_Barbearia" target="_blank"><button class="btn-orange rounded-2">Acessar Projeto</button></a>
+        <a href="https://loshermanosmarilia.com.br" target="_blank"><button class="btn-orange rounded-2">Acessar Projeto</button></a>
         <div class="mt-3 d-flex gap-2">
           <span class="tag_green rounded-4">Vue.js</span>
           <span class="tag_purple rounded-4">Bootstrap</span>
